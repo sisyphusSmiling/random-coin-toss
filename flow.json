@@ -1,5 +1,11 @@
 {
 	"contracts": {
+		"BadCoinToss": {
+			"source": "./contracts/BadCoinToss.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
 		"CoinToss": {
 			"source": "./contracts/CoinToss.cdc",
 			"aliases": {
@@ -104,6 +110,7 @@
 				"RandomBeaconHistory",
 				"Xorshift128plus",
 				"CoinToss",
+				"BadCoinToss",
 				"RandomResultStorage"
 			]
 		},
